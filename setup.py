@@ -4,13 +4,14 @@ from setuptools import find_packages, setup
 with open(os.path.join(os.path.dirname(__file__), 'README.md')) as f:
     long_description = f.read()
 
-package_version = '1.5.1'
+package_version = '1.5.2'
 
 requirements = [
     'click==7.1.1',
     'google-api-python-client==1.8.0',
     'requests==2.23.0',
-    'python-slugify==4.0.0'
+    'python-slugify==4.0.0',
+    'oauth2client==4.1.3'
 ]
 
 dev_requirements = [
